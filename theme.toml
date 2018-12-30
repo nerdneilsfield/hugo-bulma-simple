@@ -1,0 +1,12 @@
+name = "Bulma Simple"
+license = "GNU3.0"
+licenselink = "https://github.com/nerdneilsfield/hugo-bulma-simple/blob/master/LICENSE"
+description = "A very simple hugo theme built on bulma css!"
+homepage = "https://github.com/nerdneilsfield/hugo-bulma-simple"
+tags = ["responsive", "minimal", "simple", "personal", "white"]
+features = []
+min_version = 0.17
+
+[author]
+  name = "Nerdneilsfield"
+  homepage = "https://github.com/nerdneilsfield/"
