@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+{{ partial "head.html" . }}
+
+<section class="no-underline is-vertical-center" style="margin-top:2em;margin-bottom:2em">
+    <div class="container type main black">
+        <ul>
+            {{ range .Pages }}
+            <li>
+                <h2 class="title is-2"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <div id=date class="subtitle is-3">
+                    <time>{{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}</time>
+                </div>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}
