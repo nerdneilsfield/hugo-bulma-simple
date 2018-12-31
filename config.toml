@@ -1,0 +1,29 @@
+baseURL = "http://www.example.com"
+title = "Engimo"
+theme = "bulma-simple"
+description = "The bulma simple is a hugo theme built on bulma css. It is very simple and minimal"
+[params]
+copyright = "Bulma-Simple - A super simple theme for Hugo"
+showThemeCopyRight = true
+since = "2008"
+[langusges]
+[languages.en]
+  title = "Bulma-Simple - A super simple theme for Hugo"
+  languageName = "English"
+  weight = 1
+[languages.zh-cn]
+  title = "Bulma-Simple —— 一个极简的 Hugo 主题"
+  languageName = "中文"
+  weight = 2
+
+[[languages.en.menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[languages.zh-cn.menu.main]]
+  name = "主页"
+  weight = 10
+  identifier = "home"
+  url = "zh-cn/"

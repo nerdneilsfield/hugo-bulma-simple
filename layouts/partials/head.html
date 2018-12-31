@@ -1,8 +1,6 @@
   <nav class="breadcrumb is-centered" role="navigation" aria-label="main navigation">
   <ul>
-    <li><a href="#">Bulma</a></li>
     {{ range.Site.Menus.main }}
     <li><a href="{{ .URL }}" class="navbar-item"> {{ .Name }} </a></li> {{ end }}
-    <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
   </ul>
   </nav>
